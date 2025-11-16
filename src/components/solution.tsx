@@ -9,7 +9,7 @@ export function Solution() {
           <div className="flex items-center justify-center gap-2 mb-4">
             <Sparkles className="w-5 h-5 text-yellow-500" fill="currentColor" />
             <p className="text-gray-500 uppercase tracking-wider text-sm" style={{ fontWeight: 600 }}>
-              QUICKREPLY.AI SOLUTIONS
+              QUICKREVERT.TECH SOLUTIONS
             </p>
             <Sparkles className="w-5 h-5 text-yellow-500" fill="currentColor" />
           </div>
