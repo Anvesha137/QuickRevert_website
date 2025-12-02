@@ -46,6 +46,15 @@ export function Hero() {
             </Link>
           </div>
 
+          {/* Hero Image */}
+          <div className="mb-16">
+            <img 
+              src="/hero.png" 
+              alt="Hero" 
+              className="mx-auto max-w-full h-auto rounded-lg shadow-2xl"
+            />
+          </div>
+
           {/* Stats */}
           <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-12">
             <div className="flex items-center gap-2 text-white">
