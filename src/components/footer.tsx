@@ -363,8 +363,8 @@ export default function Footer() {
                 <span>© All rights reserved. 2025 - QuickRevert Private Limited</span>
                 <a href="#" className="footer-bottom-link">QuickRevert Technologies India Private Limited</a>
                 <a href="#" className="footer-bottom-link">EmirTech Technologies Private Limited</a>
-                <a href="#" className="footer-bottom-link">Privacy Policy</a>
-                <a href="#" className="footer-bottom-link">Terms of Service</a>
+                <Link to="/privacy" className="footer-bottom-link">Privacy Policy</Link>
+                <Link to="/terms" className="footer-bottom-link">Terms of Service</Link>
                 <a href="#" className="footer-bottom-link">OSL</a>
               </div>
               <div className="footer-certifications">

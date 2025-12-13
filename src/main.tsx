@@ -7,6 +7,8 @@ import IntegrationPage from "./pages/Integration.tsx";
 import LoginPage from "./pages/login.tsx";
 import DemoPage from "./pages/Demo.tsx";
 import ClickToInstagramAdsPage from "./pages/click-to-instagram-ads.tsx";
+import { Terms } from "./pages/Terms.tsx";
+import { PrivacyPolicy } from "./pages/PrivacyPolicy.tsx";
 import { Navbar } from "./components/navbar";
 
 // Home page component
@@ -67,6 +69,24 @@ function ClickToInstagramAdsRoute() {
   );
 }
 
+// Terms page component (navbar included in component)
+function TermsRoute() {
+  return (
+    <div className="min-h-screen">
+      <Terms />
+    </div>
+  );
+}
+
+// Privacy Policy page component (navbar included in component)
+function PrivacyPolicyRoute() {
+  return (
+    <div className="min-h-screen">
+      <PrivacyPolicy />
+    </div>
+  );
+}
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -91,6 +111,14 @@ const router = createBrowserRouter([
   {
     path: "/click-to-instagram-ads",
     element: <ClickToInstagramAdsRoute />,
+  },
+  {
+    path: "/terms",
+    element: <TermsRoute />,
+  },
+  {
+    path: "/privacy",
+    element: <PrivacyPolicyRoute />,
   },
 ]);
 
